@@ -5,6 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+	<!-- icon-->
+<link rel="icon" type="image/x-icon" href="https://cdn-icons.flaticon.com/png/128/2773/premium/2773699.png?token=exp=1649312332~hmac=57f98a4f6a12b71782422b9516c14c47">
+ 
 <!--Google font-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
