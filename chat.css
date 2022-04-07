@@ -1,3 +1,23 @@
+/*scroll bar*/
+
+::-webkit-scrollbar
+{
+  width: 3px;
+  background-color: rgb(26, 17, 23);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background-color: rgb(154, 123, 238);
+  height: 9px;
+}
+
+
+
+
+
+
+
 .chat-bar-collapsible {
     position: fixed;
     bottom: 0;
@@ -6,7 +26,7 @@
 }
 
 .collapsible {
-    background-color: rgb(78, 188, 216);
+    background-color: rgb(6, 47, 109);
     color: white;
     cursor: pointer;
     padding: 18px;
