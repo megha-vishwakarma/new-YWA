@@ -469,8 +469,6 @@ alert('Alert this pages');
                       </div>
                   </div>
 
-                  <div id="chat-bar-bottom">
-                      <p></p>
                   </div>
               </div>
           </div>
