@@ -388,7 +388,7 @@ section{
 				<input type="text" class="field" placeholder="Your Email">
 				<input type="text" class="field" placeholder="Phone">
 				<textarea placeholder="Message" class="field"></textarea>
-				<button class="btn" value = "Test the alert" onclick="alert('Your request porcessed Successfully');" >Send</button>
+				<button class="btn" value = "Test the alert" onclick="alert('Thanks for your response ');" >Send</button>
 			</div>
 		</div>
 	</div>
