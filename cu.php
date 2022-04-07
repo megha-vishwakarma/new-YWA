@@ -5,13 +5,12 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
-	<!-- icon-->
-<link rel="icon" type="image/x-icon" href="https://cdn-icons.flaticon.com/png/128/2773/premium/2773699.png?token=exp=1649312332~hmac=57f98a4f6a12b71782422b9516c14c47">
- 
 <!--Google font-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="chat.css">
+<link rel="stylesheet" href="home.css">
 <style>
     *{
 	padding: 0;
@@ -369,11 +368,11 @@ section{
 	</label>
 	<label class="logo">Yoga Life</label>
 	<ul>
-	  <li><a class="active" href="#">Home</a></li>
-	  <li><a href="#">About</a></li>
-	  <li><a href="#">Services</a></li>
-	  <li><a href="#">Contact</a></li>
-	  <li><a href="#">Feedback</a></li>
+	  <li><a class="active" href="index.html">Home</a></li>
+	  <li><a href="about.html">About</a></li>
+	  <li><a href="events.html">Events</a></li>
+	  <li><a href="classes.html">Classes</a></li>
+	 
 	</ul>
   </nav>
 
@@ -387,7 +386,7 @@ section{
 				<input type="text" class="field" placeholder="Your Email">
 				<input type="text" class="field" placeholder="Phone">
 				<textarea placeholder="Message" class="field"></textarea>
-				<button class="btn" value = "Test the alert" onclick="alert('Thanks for your response');" >Send</button>
+				<button class="btn" value = "Test the alert" onclick="alert('Your request porcessed Successfully');" >Send</button>
 			</div>
 		</div>
 	</div>
@@ -444,6 +443,40 @@ alert('Alert this pages');
 }
 </script>
 
+
+ <!-- CHAT BAR BLOCK -->
+ <div class="chat-bar-collapsible">
+  <button id="chat-button" type="button" class="collapsible">Chat with us!
+      <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+  </button>
+
+  <div class="content">
+      <div class="full-chat-block">
+          <!-- Message Container -->
+          <div class="outer-container">
+              <div class="chat-container">
+                  <!-- Messages -->
+                  <div id="chatbox">
+                      <h5 id="chat-timestamp"></h5>
+                      <p id="botStarterMessage" class="botText"><!--span>Loading...</span--></p>
+
+      <!--AZURE QnA bot-->
+<iframe src='https://webchat.botframework.com/embed/YogaLifeQnABot?s=tpl0-av_cU8.f9WXR8SrU5YlcTvSuQfIGRjh7Mt0jha4BW52ikTzaVc' style="height: 480px; width: 340px;"></iframe>
+  <div class="chat-bar-icons">
+                        
+                          <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                              onclick="sendButton()"></i>
+                      </div>
+                  </div>
+
+                  <div id="chat-bar-bottom">
+                      <p></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div></div>
+<script src="chat.js"></script>
 
 </body>
 </html>
